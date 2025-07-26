@@ -1,0 +1,68 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: white;
+  color: black;
+}
+
+/* Banner */
+.banner {
+  background-color: purple;
+  padding: 1rem 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Image Section */
+.image-section {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+
+/* CSS Grid Section */
+.content-grid {
+  display: grid;
+  background-color: #f0f0f0;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.grid-item {
+  max-width: 800px;
+  text-align: center;
+}
+
+.grid-item h2 {
+  margin-bottom: 1rem;
+}
