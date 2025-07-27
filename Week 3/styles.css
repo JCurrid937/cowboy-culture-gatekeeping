@@ -61,47 +61,42 @@ body {
   color:#f0f0f0;
 }
 
-
 .content-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  background-color: #f0f0f0;
-  padding: 2rem 1rem;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 
- .grid-item {
-  max-width: 800px;
+.grid-item {
+  max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
 }
 
-/* Media Queries for Larger Screens */
-@media (min-width: 600px) {
-  .navbar ul {
-    gap: 2rem;
-  }
-
-  .image-text h1 {
-    font-size: 2rem;
-  }
-
-  .grid-item h2 {
-    font-size: 2rem;
-  }
-
-  .grid-item p {
-    font-size: 1.1rem;
-  }
+.side-by-side {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start; /* Align top edges */
+  flex-wrap: wrap;
 }
 
-@media (min-width: 992px) {
-  .content-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    padding: 3rem;
-  }
+.text-content {
+  flex: 1;
+  min-width: 300px;
+}
 
-  .grid-item {
-    text-align: left;
-  }
+/* NEW: Limit image height to match text height */
+.image-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  max-width: 400px;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  max-height: 100%;
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
 }
