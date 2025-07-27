@@ -105,3 +105,36 @@ body {
     text-align: left;
   }
 }
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.content-grid {
+  background-color: #f5f5f5; /* light gray background */
+  padding: 20px;
+}
+
+.grid-item {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.text-image-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; /* stacks image below text on small screens */
+}
+
+.text-content {
+  flex: 1;
+  min-width: 250px;
+}
+
+.side-image {
+  width: 200px; /* smaller image size */
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* optional rounded corners */
+}
