@@ -100,3 +100,14 @@ body {
   object-fit: contain;
   border-radius: 8px;
 }
+photo-stack {
+  float: left;
+  margin-right: 20px;
+}
+
+.photo-stack img {
+  display: block;
+  width: 300px;      /* Adjust as needed */
+  height: auto;
+  margin-bottom: 20px;
+}
