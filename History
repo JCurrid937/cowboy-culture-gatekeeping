@@ -4,10 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Homepage</title>
-  <link rel="stylesheet" href="styles.css"
-  </head>
+  <link rel="stylesheet" href="Week 3/styles.css" />
+</head>
 <body>
-
 
   <header class="banner">
     <nav class="navbar">
@@ -23,24 +22,26 @@
   </header>
 
   <section class="image-section">
-    <img src="Week 3/Images/Sepia Cowboy.jpg" alt="Sepia Cowboy"/>
-    <div class="image-text">Case Study: Examining the gatekeeping of country music and cowboy culture and who has been allowed to claim these spaces and why.</div>
+    <img src= "Week 3/Images/Sepia Cowboy.jpg" alt="Sepia Cowboy"/>
+    <div class="image-text">Roots.</div>
   </section>
 
   <section class="content-grid">
     <div class="grid-item">
       <div class="side-by-side">
       <div class="text-content">
-      <h2>Historical Misconceptions</h2>
-      <p><br>The cowboy culture is often seen as a symbol of rugged individualism and freedom and associated with admirable virtues such as honor, integrity, loyalty, determination, and grit. "Earn your spurs" is just one of several colloquialisms that captures how becoming a hand is a hard-earned privilege. </p>
-      <p><br>Taking pride in the hard work and merits required to call oneself, "cowboy," is expected. However, cultural identity should not serve as a prerequisite for earning the right to claim this space. <br> A closer examination of a culture based on many positives such as stewardship of the land and animals and an unwavering allegiance to fellow humans by "riding for the brand" reveal a darker side of exclusion and gatekeeping.</p>
-      <p><br>Too often, the image of the cowboy has been narrowly defined—white, male, straight, and tough-as-nails. But the truth is, the real history of the West is far more diverse."Y’all Means All,” is not just a catchy phrase. It is a promise—to honor the past, acknowledge the present, and shape a future that makes space for everyone. It's about pushing past outdated narratives and lifting up voices that have too often been silenced or sidelined.</p>
-      <p><br>Preserving the values that make cowboy culture powerful: honesty, toughness, and community is imperative. But those values ring hollow if they don’t extend to everyone. Cowboy culture doesn’t have to lose its grit or glory to grow—it just needs to open the gate a little wider. </p>
+      <h2>History</h2>
+       <h3><br>Music</h3>
+     </p>Country music as we know it wouldn’t exist without the influence of Black artists. From the instruments to the techniques, their impact runs deep. Take the banjo, for example — it's long been seen as a hallmark of traditional “hillbilly” music and a symbol of country roots. But what many don’t realize is that the banjo actually traces back to West African instruments made from gourds. Over time, White rural musicians were praised for their banjo skills and their role in shaping country music, but the origins tell a different story — one rooted in cultural borrowing, if not outright appropriation.</p>
+      <h3><br>Cowboying</h3>
+     <p>Just like Black artists helped shape country music, Black cowboys played a major role in building the Texas cattle industry—especially during the Reconstruction Era. Back then, cowboying was one of the few jobs open to Black men, and it’s estimated that one in every four cowboys was Black.</p>
+      
+     <h3><br>The "Jackie Robinson of Rodeo"</h3>
+     <p>One standout name in rodeo history is Myrtis Dightman. Nicknamed “The Jackie Robinson of Rodeo” by Texas Monthly, Dightman broke barriers in 1967 when he became the top-ranked bull rider in the world—and the first Black cowboy to seriously compete for the bull riding world title (Wallace, 2018). What makes this achievement even more remarkable is that it happened just three years after the Civil Rights Act of 1964, at a time when Black athletes—and Black Americans in general—were still facing immense discrimination and roadblocks.</p>
+      
+     <h3><br>Bass Reeves</h3>
+     <p>Bass Reeves, a former enslaved man turned deputy U.S. marshal, patrolled the Oklahoma and Indian territories in the late 1800s. He was known for his unmatched marksmanship, fearless justice, and wild stories of bravery—including the time he arrested his own son for murder. Stories of his integrity and heroism have lived on for generations.</p>
     </div>
-
-    <div class="image-wrapper">
-    <img src="Images/Cowboy Boots with Spurs.jpg" alt="Cowboy culture image" />
-  </div>
 </section>
   </section>
 </body>
